@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const observacao = dados.get('observacao');
 
     console.log({ nome, email, livro, observacao });
-    alert('Sugestão enviada com sucesso!');
+    alert('Sugestão enviada com sucesso! Obrigado por nós ajudar');
     form.reset();
   });
 });
