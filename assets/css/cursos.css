@@ -98,10 +98,10 @@ h2 {
     border-radius: 5px;
 }
 
-/* Layout dos livros */
-section.livros-iniciantes,
-section.livros-intermediarios,
-section.livros-avancados {
+/* Layout dos cursos */
+section.cursos-iniciantes,
+section.cursos-intermediarios,
+section.cursos-avancados {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -109,7 +109,7 @@ section.livros-avancados {
     padding: 20px 0;
 }
 
-.livro {
+.curso {
     flex: 1 1 250px;
     max-width: 250px;
     background-color: #1a1a1a;
@@ -119,13 +119,13 @@ section.livros-avancados {
     transition: transform 0.2s ease-in-out;
 }
 
-.livro:hover {
+.curso:hover {
     transform: scale(1.02);
 }
 
 .titulo {
     font-size: 18px;
-    min-height: 60px; /* garante alinhamento das imagens */
+    min-height: 60px;
     margin-bottom: 10px;
     display: flex;
     align-items: center;
@@ -147,43 +147,40 @@ section.livros-avancados {
     color: #ddd;
 }
 
-strong{
-    color: red;
-}
-
+/* Formulário */
 #formulario-indicacao {
     padding: 2rem;
     background-color: #2f0101;
     text-align: center;
-  }
-  
-  #formulario-indicacao h2 {
+}
+
+#formulario-indicacao h2 {
     font-size: 1.8rem;
     margin-bottom: 0.5rem;
-  }
-  
-  #formulario-indicacao p {
+}
+
+#formulario-indicacao p {
     margin-bottom: 1.5rem;
-  }
-  
-  #formulario-indicacao form {
+}
+
+#formulario-indicacao form {
     max-width: 600px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     gap: 1rem;
-  }
-  
-  #formulario-indicacao input,
-  #formulario-indicacao textarea {
+}
+
+#formulario-indicacao input,
+#formulario-indicacao textarea {
     padding: 0.8rem;
     border-radius: 8px;
     border: 1px solid #ccc;
     font-size: 1rem;
     resize: none;
-  }
-  
-  #formulario-indicacao button {
+}
+
+#formulario-indicacao button {
     padding: 1rem;
     background-color: #4CAF50;
     color: white;
@@ -192,12 +189,11 @@ strong{
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  }
-  
-  #formulario-indicacao button:hover {
+}
+
+#formulario-indicacao button:hover {
     background-color: #45a049;
-  }
-  
+}
 
 /* Rodapé */
 footer {
